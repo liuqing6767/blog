@@ -1,0 +1,11 @@
+[book]
+authors = ["Qing Liu"]
+#multilingual = false
+#src = "src"
+title = "刘青的个人技术博客"
+description = "刘青的个人技术博客"
+language = "zh-CN"
+
+[output.html]
+git-repository-url = "https://github.com/liuqing6767/blog/tree/main"
+edit-url-template = "https://github.com/liuqing6767/blog/edit/main/{path}"
