@@ -1,7 +1,7 @@
 [book]
 authors = ["Qing Liu"]
 #multilingual = false
-#src = "src"
+src = "."
 title = "刘青的个人技术博客"
 description = "刘青的个人技术博客"
 language = "zh-CN"
