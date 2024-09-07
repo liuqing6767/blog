@@ -1,1 +1,1 @@
-docs/learn.md
+docs/journal/index.md
