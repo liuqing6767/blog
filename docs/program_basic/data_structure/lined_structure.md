@@ -112,7 +112,7 @@ public interface IHandler {
 	void handle(IElement element);
 }
 ```
-在计算机中，它的实现有={顺序, 链式}。
+在计算机中，它的实现有=\{顺序, 链式\}。
 
 ### 线性表的顺序表示和实现
 *用一组地址连续的存储单元依次存储线性表的数据元素*

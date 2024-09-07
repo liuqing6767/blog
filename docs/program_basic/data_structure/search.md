@@ -78,7 +78,7 @@ public class BinarySearch implements ISearch{
 
  斐波那契数查找的效率比折半查找法要好，但是最坏情况则更差。
 
-> 插值查找： 查找给定的key，mid = $\frac{key - ST.elems[low].key}{ST.elems[high].key - ST.elems[low].key} (high - low + 1)$。
+> 插值查找： 查找给定的key，mid = `$\frac{key - ST.elems[low].key}{ST.elems[high].key - ST.elems[low].key} (high - low + 1)$`。
 
 插值查找适合关键字均匀发布的表。
 
@@ -159,8 +159,8 @@ $$w(subr) = w(i+1) + w(i+2) + ... + w(h)$$
 #### 键树
 > 键数：有叫数字查找树。一棵度 > 1 的树，树种每个结点中不包含一个或几个关键字， 而是包含组成关键字的符号。
 
-假设有关键字集合A = {CAI, CAO, LI, LAN ,CHA, CHANG, WEN, CHAO, YUN, YANG, LONG, WANG, ZHAO, LIU, WU, CHEN}。
-首先按第n =1 个字母分为：{CAI, CAO, CHA, CHANG, CHAO, CHEN}, {WEN, WANG, WU}, {ZHAO}, {LI, LAN, LONG, LIU}, {YUN, YANG}。
+假设有关键字集合A = `{CAI, CAO, LI, LAN ,CHA, CHANG, WEN, CHAO, YUN, YANG, LONG, WANG, ZHAO, LIU, WU, CHEN}`。
+首先按第n =1 个字母分为：`{CAI, CAO, CHA, CHANG, CHAO, CHEN}, {WEN, WANG, WU}, {ZHAO}, {LI, LAN, LONG, LIU}, {YUN, YANG}`。
 观察发现，第一组还可以按 n + 1 个字母细分，如此反复直到每个小子集只有一个元素。
 
 > 约定：

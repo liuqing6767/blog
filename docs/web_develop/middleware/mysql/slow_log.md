@@ -26,7 +26,7 @@ summary:
 	- 慢日志默认是关闭的
 
 - --log_output：日志输出的位置
-	- 逗号分隔的 {FILE, TABLE}
+	- 逗号分隔的 \{FILE, TABLE\}
 	- 默认是FILE
 	- 要是有TABLE，会保存在mysql.slow_log 和 mysql.general_log表中。
 	- 要是有FILE，会保存到 general_log_file 中
